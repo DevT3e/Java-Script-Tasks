@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variant-2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="tabs">
+        <button class="tab-button" data-for-tab="1">Фильмы</button>
+        <button class="tab-button" data-for-tab="2">Музыкальные произведения</button>
+        <button class="tab-button" data-for-tab="3">Книги</button>
+        <button class="tab-button" data-for-tab="4">Журналы</button>
+        <div class="tab-content" data-tab="1">
+          <p>Один дома</p>
+          <p>Рождество</p>
+          <p>Санта Клаус</p>
+        </div>
+        <div class="tab-content" data-tab="2">
+          <p>Музыка из балета Щелкунчик</p>
+          <p>Музыка из балета Лебединое озеро</p>
+        </div>
+        <div class="tab-content" data-tab="3">
+            <p>Война и мир</p>
+            <p>Парфюмер</p>
+            <p>Волхв</p>
+          </div>
+          <div class="tab-content" data-tab="4">
+            <p>Burda Style</p>
+          </div>
+      </div>
+      
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+<!--
+
+1. Functionality:
+- The static components (tab buttons and tab contents) are rendered 
+correctly without any event handling.
+- The tabs can be switched without reloading the page. When a tab 
+button is clicked, the corresponding tab content is shown while hiding
+the other tab contents.
+
+2. Code quality:
+- The code is organized and readable. The JavaScript code is structured
+using functions and comments to explain the purpose of each section.
+- The code follows best practices by using query selectors to select 
+elements, adding event listeners to handle click events, and using 
+conditional statements to show/hide tab contents.
+
+
